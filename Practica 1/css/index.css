@@ -1,0 +1,21 @@
+
+/* selector de elemento, enlazamos propiedades en todo el documento */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    /* tipografias principal y de respaldo */
+}
+
+p{
+    text-align:justify;
+}
+
+/* selector de clase punto significa clase*/
+.fondo-rojo{
+    background: #74a892 ;
+
+}
+
+.fondo-negro{
+    background:#c7522a;
+    color: #fff;
+}
