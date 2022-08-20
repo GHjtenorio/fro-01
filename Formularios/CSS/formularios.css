@@ -1,0 +1,19 @@
+#frm-registro{
+    /* border: 1px solid black; */
+    width: 40%;
+
+}
+
+#frm-registro .fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#frm-registro .fila .columna{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
+}
