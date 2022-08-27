@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,31 +11,89 @@
 
     <!-- 3. stilos de la pagina -->
     <link rel="stylesheet" href="CSS/formularios.css">
-    <title>Formulario</title>
+    <title>Formularios</title>
 </head>
 
 <body>
-      <main>
+    <main>
         <h1>Carrera del dia de las madres</h1>
         <section>
             <h2>LVLUP</h2>
             <!-- header sirve para dar bienvenida , dar formulacios o introduccion -->
-                <header>
-                    <h3>Registro en linea</h3>
-                </header>
+            <header>
+                <h3>Registro en linea</h3>
+            </header>
             <form id="frm-registro">
-               
+
                 <div class="fila">
-                        <div class="columna">
-                            <label for="txt-nombre">Nombre</label>
-                            <input type="text" placeholder="Nombre" id="txt-nombre">
-                        </div>
-                        
-                        <div class="columna">
-                            <label for="txt-apellidos">Apellidos</label>
-                            <input type="text" placeholder="Apellidos" id="txt-apellidos">
-                        </div>
+                    <div class="columna-2">
+                        <label for="txt-nombre">Nombre</label>
+                        <input type="text" placeholder="Nombre" id="txt-nombre">
+                    </div>
+
+                    <div class="columna-2">
+                        <label for="txt-apellidos">Apellidos</label>
+                        <input type="text" placeholder="Apellidos" id="txt-apellidos">
+                    </div>
+
                 </div>
+
+                <div class="fila">
+
+                    <div class="columna">
+                        <label for="txt-email">Correo Electrónico</label>
+                        <input type="email" placeholder="jose@.com" id="txt-correo">
+                    </div>
+
+                </div>
+
+                <div class="fila">
+                    <div class="columna">
+                        <label for="txt-direccion">Dirección</label>
+                        <input type="text" id="txt-direccion" placeholder="Dirección">
+
+                    </div>
+                </div>
+
+                <div class="fila">
+                    <div class="columna-3">
+                        <label for="txt-ciudad">Ciudad</label>
+                        <input type="text" id="txt-ciudad" placeholder="Ciudad">
+
+                    </div>
+
+                    <div class="columna-3">
+                        <label for="slt-provincia">Provincia</label>
+                        <select id="slt-provincia">
+                                            <option value="">-- Seleccione una provincia--</option>
+                                            <option value="1">San Jose</option>
+                                            <option value="2">Alajuela</option>
+                                            <option value="3">Cartago</option>
+                                            <option value="4">Heredia</option>
+                                            <option value="5">Puntarenas</option>
+                                            <option value="6">Limon</option>
+                                            <option value="7">Guanacaste</option>
+                                        </select>
+
+                    </div>
+                    <div class="columna-3">
+                        <label for="txt-zip">Codigo postal</label>
+                        <input type="text" id="txt-zip">
+
+                    </div>
+
+
+                </div>
+                <div class="fila">
+                    <div class="columna">
+                        <button type="button" id="btn-registrar">Registrarme<button>
+
+                                            </div>
+                                </div>
+
+                      
+
+               
 
             </form>
         </section>

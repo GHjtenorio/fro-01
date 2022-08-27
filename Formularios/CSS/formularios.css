@@ -1,5 +1,5 @@
 #frm-registro{
-    /* border: 1px solid black; */
+     border: 2px solid black; 
     width: 40%;
 
 }
@@ -14,6 +14,21 @@
     /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 100%;
+
 
 }
+#frm-registro .fila .columna-2 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/2.2) ;
+}
+
+#frm-registro .fila .columna-3 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3.2) ;
+}
+
+
+/* buscar sistema de grillas */
