@@ -1,34 +1,87 @@
-#frm-registro{
-     border: 2px solid black; 
-    width: 40%;
+/* buscar sistema de grillas */
 
+* {
+    box-sizing: border-box;
 }
 
-#frm-registro .fila{
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+#sct-registro {
+    display: flex;
+    justify-content: center;
+}
+
+#frm-registro {
+    border: 2px solid #61185b;
+    ;
+    border-radius: 6px;
+    padding: 3%;
+    width: 40%;
+}
+
+#frm-registro .fila {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
-#frm-registro .fila .columna{
-    /* border: 1px solid red; */
+#frm-registro .fila .columna {
     display: flex;
     flex-direction: column;
     width: 100%;
-
-
 }
+
 #frm-registro .fila .columna-2 {
     display: flex;
     flex-direction: column;
-    width: calc(100%/2.2) ;
+    width: calc(100%/2.15);
 }
 
 #frm-registro .fila .columna-3 {
     display: flex;
     flex-direction: column;
-    width: calc(100%/3.2) ;
+    width: calc(100%/3.15);
 }
 
+#frm-registro label {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
 
-/* buscar sistema de grillas */
+#frm-registro input,
+#frm-registro select {
+    height: 40px;
+    border: 1.5px solid #d1d1d1;
+    border-radius: 4px;
+    color: #686767;
+    outline: none;
+    padding-left: 6px;
+}
+
+#frm-registro header {
+    background: #F9F2FA;
+    height: 50px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.btn-morado {
+    border: 1px solid #A46B9F;
+    border-radius: 4px;
+    background: #A46B9F;
+    color: #fff;
+    height: 40px;
+}
+
+.btn-morado:hover {
+    background: #61185b;
+    cursor: pointer;
+}

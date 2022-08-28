@@ -8,7 +8,9 @@
     <!-- 1. Reset -->
     <link rel="stylesheet" href="CSS/reset.css">
     <!-- 2.  estolos externos (tipografias de google) -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
     <!-- 3. stilos de la pagina -->
     <link rel="stylesheet" href="CSS/formularios.css">
     <title>Formularios</title>
@@ -17,13 +19,15 @@
 <body>
     <main>
         <h1>Carrera del dia de las madres</h1>
-        <section>
-            <h2>LVLUP</h2>
+        <h2>LVLUP</h2>
+        <section id="sct-registro">
+
             <!-- header sirve para dar bienvenida , dar formulacios o introduccion -->
-            <header>
-                <h3>Registro en linea</h3>
-            </header>
+
             <form id="frm-registro">
+                <header>
+                    <h3>Registro en linea</h3>
+                </header>
 
                 <div class="fila">
                     <div class="columna-2">
@@ -42,7 +46,7 @@
 
                     <div class="columna">
                         <label for="txt-email">Correo Electrónico</label>
-                        <input type="email" placeholder="jose@.com" id="txt-correo">
+                        <input type="email" placeholder="nombre@.com" id="txt-correo">
                     </div>
 
                 </div>
@@ -55,6 +59,7 @@
                     </div>
                 </div>
 
+
                 <div class="fila">
                     <div class="columna-3">
                         <label for="txt-ciudad">Ciudad</label>
@@ -65,40 +70,45 @@
                     <div class="columna-3">
                         <label for="slt-provincia">Provincia</label>
                         <select id="slt-provincia">
-                                            <option value="">-- Seleccione una provincia--</option>
-                                            <option value="1">San Jose</option>
-                                            <option value="2">Alajuela</option>
-                                            <option value="3">Cartago</option>
-                                            <option value="4">Heredia</option>
-                                            <option value="5">Puntarenas</option>
-                                            <option value="6">Limon</option>
-                                            <option value="7">Guanacaste</option>
-                                        </select>
+                                                    <option value="">Provincia</option>
+                                                    <option value="1">San Jose</option>
+                                                    <option value="2">Alajuela</option>
+                                                    <option value="3">Cartago</option>
+                                                    <option value="4">Heredia</option>
+                                                    <option value="5">Puntarenas</option>
+                                                    <option value="6">Limon</option>
+                                                    <option value="7">Guanacaste</option>
+                                                </select>
 
                     </div>
+
                     <div class="columna-3">
                         <label for="txt-zip">Codigo postal</label>
-                        <input type="text" id="txt-zip">
+                        <input type="text" placeholder="Codigo postal" id="txt-zip">
 
                     </div>
 
 
                 </div>
+
                 <div class="fila">
                     <div class="columna">
-                        <button type="button" id="btn-registrar">Registrarme<button>
+                        <button type="button" id="btn-registrar" class="btn-morado">Registrarme<button> 
 
-                                            </div>
-                                </div>
+                    </div>
+      
+                </div>
 
-                      
+                <!-- <div class="fila"> -->
+                <!-- <div class="columna">
+                    <button type="button" id="btn-registrar" class="btn-morado">Registrarme<button> </div> -->
 
-               
+                <!-- </div> -->
 
             </form>
         </section>
 
-      </main>
+    </main>
 </body>
 
 </html>
