@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    /* dentro del 30% se incluye el borde para no estar haciendo calculos */
+}
+
+html {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Nunito', sans-serif
+}
+
+.caja {
+    border: 2px solid #000;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    /* 30*5 exede de 100% lo tenia en 30*/
+}
+
+.verde {
+    background: #A3CB38;
+}
+
+.amarillo {
+    align-self: flex-start;
+    /* para acomodar elementos solo ese elemento en especifico*/
+    background: #FFC312;
+}
+
+.rojo {
+    background: #EA2027;
+    order: 0;
+    /* para ordenar solo con flex, todos los elementos su valor de order es 0 sin ser modificados, entre mayor sea mas a la izq se va a colocar si ponemos negativo se pone a la izq*/
+}
+
+.azul {
+    background: #0652DD;
+}
+
+.morado {
+    /* align-self: flex-end; */
+    background: #833471;
+}
+
+#sct-contenedor {
+    align-items: center;
+    /* flex strart, flex end, center; */
+    /*acomoda los elementos segun su eje secundario*/
+    border: 2px solid #2f3640;
+    display: flex;
+    /* de izq a derecha row */
+    flex-direction: row;
+    /* flex-wrap: wrap;  me deja el ancho que le digo y lo que no cabe lo pone en otro lugar*/
+    justify-content: space-between;
+    /* space around suma los espacios de cada elemento al rededor del elemento*/
+    /* space-evenly; sin sumar entre elementos , de forma equitativa */
+    /* permite acomodar los elementos hijos seguen su eje principal */
+    /* cambios al eje principal  */
+    /* ya las cajas no miden 30% por que 30 * 100 is se sobrepasa. con el flex se acomoda dentro de la seccion */
+    height: 700px;
+    /* el alto del contenedor para poder acomodar los elementos del flex como deseamos
+    eje principal y eje secuntario  van a depender de cual sera la direccion de cual sea el contenido, el flex trabaja del padre hacia el hijo los elementos se acomodan a partir del eje principal osea el eje horizontal de izq a derec, hijos directos son los div
+    si un elemento revasa el contendor del padre se va hacia abajo*/
+}
