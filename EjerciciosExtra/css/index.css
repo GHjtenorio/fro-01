@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    /* dentro del 30% se incluye el borde para no estar haciendo calculos */
+}
+
+html {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Nunito', sans-serif
+}
+
+.caja {
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: center;
+    width: 50%;
+    /* 30*5 exede de 100% lo tenia en 30*/
+}
+
+.horizontal1 {
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    /* 30*5 exede de 100% lo tenia en 30*/
+}
+
+.horizontal2 {
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    /* 30*5 exede de 100% lo tenia en 30*/
+}
+
+.verde {
+    background: #A3CB38;
+}
+
+.amarillo {
+    /* align-self: flex-start; */
+    /* para acomodar elementos solo ese elemento en especifico*/
+    background: #FFC312;
+}
+
+.rojo {
+    background: #EA2027;
+    order: 0;
+    /* para ordenar solo con flex, todos los elementos su valor de order es 0 sin ser modificados, entre mayor sea mas a la izq se va a colocar si ponemos negativo se pone a la izq*/
+}
+
+.morado {
+    /* align-self: flex-end; */
+    background: #833471;
+}
+
+#sct-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 70%;
+}
+
+
+/* all medio dirigido and caracteristicas adiciones */
+
+@media all and (max-width: 576px) {
+    #sct-contenedor {
+        flex-direction: column;
+    }
+    .caja {
+        width: 100%;
+    }
+    .amarillo {
+        order: 0;
+    }
+    .morado {
+        order: 1;
+    }
+    .verde {
+        /* display: none; Para eliminar una caja cuando la resolution cambia */
+        order: 2;
+    }
+    .rojo {
+        order: 3;
+    }
+}

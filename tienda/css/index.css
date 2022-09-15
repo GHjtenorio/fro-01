@@ -1,0 +1,84 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .redes {
+        font-weight: bold;
+        color: #3d4246;
+        text-decoration: underline;
+    }
+    /* se hace esta estructura para que la imagen se adapte al contenedor y no a la pagina */
+    /* inicio estilos: seccion oferta */
+    
+    #sct-ofertas {
+        width: 70%;
+        /* producce que se ponga el texto a la par, acomoda los elementos todos uno a la par del otro  */
+        display: flex;
+        margin: 0 auto;
+        padding-top: 40px;
+        /* border: 2px solid red; */
+    }
+    
+    #sct-ofertas .img-container {
+        width: 50%;
+    }
+    
+    #sct-ofertas .img-container img {
+        width: 100%;
+    }
+    /* se hace esta estructura para que la imagen se adapte al contenedor y no a la pagina */
+    
+    #sct-ofertas .info {
+        padding-left: 3%;
+        width: 50%;
+    }
+    /* convertir a mayuscula */
+    
+    #sct-ofertas .info h2 {
+        color: #3d4246;
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    
+    #sct-ofertas .info h3 {
+        color: #3d4246;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    
+    #sct-ofertas .info p {
+        color: #69727b;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    #sct-ofertas .info p span {
+        font-weight: bold;
+    }
+    /* fin inicio estilos: seccion oferta */
+    /* media queries @ es para indicar  instruciones no son de estilo sino de comportamiento animaciones transiciones media queries */
+    /* @media only screen {
+   solo para pantallas a color 
+} */
+    /* all medio dirigido and caracteristicas adiciones */
+    
+    @media all and (max-width: 992px) {
+        #sct-ofertas {
+            flex-direction: column;
+        }
+        #sct-ofertas .img-container {
+            width: 100%;
+        }
+        #sct-ofertas .info {
+            width: 100%;
+        }
+    }
