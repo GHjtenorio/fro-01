@@ -21,7 +21,8 @@ html {
     /*acomoda los elementos segun su eje secundario*/
     /* border: 2px solid #2f3640; */
     /* background-color: red; */
-    background: radial-gradient(red 5%, rgb(255, 0, 25) 25%, #5a3b3b 50%);
+    /* background: radial-gradient(red 5%, rgb(255, 0, 25) 25%, #5a3b3b 50%); */
+    background-image: linear-gradient(#19b4c6, #078aa4);
     display: flex;
     /* de izq a derecha row */
     flex-direction: row;

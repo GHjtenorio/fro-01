@@ -1,0 +1,221 @@
+/* estilos de 0px en adelante */
+
+
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+    /* tener el modelo de cajas */
+    box-sizing: border-box;
+}
+
+.container-celeste {
+    /* align-items: center; */
+    background-image: linear-gradient(#19b4c6, #078aa4);
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    /* border: 5px solid rgb(203, 203, 55); */
+}
+
+
+/* chevron arrow */
+
+.fila .columna .material-symbols-outlined {
+    /* border: 3px solid rgb(188, 43, 50); */
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.container-celeste .fila .columna {
+    display: block;
+    width: 45%;
+    /* border: 3px solid rgb(188, 43, 50); */
+}
+
+.container-celeste .fila {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/*website */
+
+.fila .columna #website {
+    color: #ffffff;
+    /* border: 3px solid rgb(20, 48, 147); */
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+
+/* bold title */
+
+.container-celeste #titulo {
+    align-items: flex-start;
+    color: #ffffff;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 35px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    /* border: 3px solid #000; */
+    width: 65%;
+    /* border: 3px solid rgb(26, 139, 73); */
+}
+
+.banner-morado {
+    align-items: center;
+    background-image: linear-gradient(#7b14c2, #5b0fa1);
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+}
+
+.banner-morado .material-symbols-outlined {
+    /* border: 3px solid rgb(26, 139, 73); */
+    font-size: 45px;
+}
+
+.banner-morado .material-symbols-outlined p {
+    display: block;
+    font-size: 700px;
+}
+
+.container-img img {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+
+.final-txt {
+    background: #d5d5d5;
+    /* border: 3px solid rgb(35, 131, 126); */
+    color: #151414;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    /* background: #c8c7c7; */
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 23px;
+    padding-top: 25px;
+}
+
+.final-txt .titu {
+    color: #078aa4;
+    font-weight: 700;
+    margin-left: 0px;
+    font-size: 20px;
+    /* border: 3px solid #000; */
+}
+
+.final-txt2 {
+    background: #d5d5d5;
+    color: #6e7272;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    line-height: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 55px;
+    /* border: 3px solid rgb(138, 93, 33); */
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #373c3f;
+    color: #ebebeb;
+}
+
+header #nav-mobile {
+    display: flex;
+    justify-content: space-between;
+    min-height: 32px;
+    padding-left: 4%;
+}
+
+header #nav-mobile span {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+header #nav-mobile .material-icons {
+    background: #202529;
+    min-height: 32px;
+    min-width: 32px;
+}
+
+header #nav-desktop {
+    display: none;
+}
+
+.material-symbols-outlined {
+    color: #ebebeb;
+}
+
+
+/* Media query de 640 para arriba */
+
+@media all and (min-width: 640px) {
+    header #nav-mobile {
+        min-height: 75px;
+    }
+    header #nav-mobile .material-icons {
+        min-height: 75px;
+        min-width: 75px;
+    }
+    .container-img img {
+        width: 640px;
+        height: 640px;
+    }
+    .banner-morado {
+        align-items: center;
+        background: #5b0fa1;
+        display: flex;
+        flex-direction: column;
+        height: 640px;
+        justify-content: center;
+    }
+}
+
+@media all and (min-width: 980px) {
+    header #nav-mobile {
+        display: none;
+    }
+    header #nav-desktop {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        min-height: 100px;
+        padding-left: 4%;
+        width: 60%;
+    }
+    header #nav-desktop a {
+        color: #ebebeb;
+        text-decoration: none;
+    }
+    .container-img img {
+        width: 1024px;
+        height: 1024px;
+    }
+    /* .container-img img {
+        width: 100%;
+        height: 100%;
+    } */
+}
