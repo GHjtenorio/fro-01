@@ -13,7 +13,8 @@
     background-image: linear-gradient(#19b4c6, #078aa4);
     display: flex;
     flex-direction: column;
-    height: 190px;
+    height: 175px;
+    width: 100%;
     /* border: 5px solid rgb(203, 203, 55); */
 }
 
@@ -38,6 +39,55 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+/* banner negro */
+
+#sct-back-banner .fila .columna {
+    display: block;
+    width: 80%;
+    /* border: 3px solid rgb(188, 43, 50); */
+}
+
+#sct-back-banner .fila .columna2 {
+    width: 20%;
+    /* border: 3px solid rgb(161, 100, 143); */
+}
+
+#sct-back-banner .fila {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid rgb(30, 166, 116); */
+}
+
+#sct-back-banner .material-symbols-outlined {
+    /* border: 3px solid rgb(30, 166, 116); */
+    align-items: center;
+    color: #ffffff;
+    background-image: linear-gradient(#cf097ceb, #f22f9d);
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    width: 100%;
+    justify-content: center;
+}
+
+#sct-back-banner .fila .columna .parrafo-banner p {
+    /* border: 3px solid rgb(172, 185, 158); */
+    align-items: center;
+    color: rgb(121, 84, 121);
+    background: #27212c;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 10px;
+    height: 75px;
+    width: 100%;
+    justify-content: center;
+}
+
+
+/* fin banner negro */
 
 
 /*website */
@@ -71,13 +121,22 @@
     /* border: 3px solid rgb(26, 139, 73); */
 }
 
-.banner-morado {
+#sct-cambio-banner .banner-morado {
     align-items: center;
     background-image: linear-gradient(#7b14c2, #5b0fa1);
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 100px;
     width: 100%;
+    justify-content: center;
+}
+
+.banner-morado {
+    align-items: center;
+    background: #5b0fa1;
+    display: flex;
+    flex-direction: column;
+    height: 240px;
     justify-content: center;
 }
 
@@ -93,8 +152,7 @@
 
 .container-img img {
     display: flex;
-    flex-direction: column;
-    height: 250px;
+    width: 100%;
 }
 
 .final-txt {
@@ -180,17 +238,38 @@ header #nav-desktop {
         min-height: 75px;
         min-width: 75px;
     }
-    .container-img img {
-        width: 640px;
-        height: 640px;
-    }
     .banner-morado {
         align-items: center;
         background: #5b0fa1;
         display: flex;
         flex-direction: column;
-        height: 640px;
+        height: 275px;
         justify-content: center;
+    }
+}
+
+@media all and (min-width: 640px) {
+    .container-celeste #titulo {
+        align-items: flex-start;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+        margin-left: 70px;
+        margin-right: 55px;
+        margin-top: 80px;
+        padding-top: 35px;
+        padding-bottom: 25px;
+        width: 65%;
+    }
+    .fila .columna #website {
+        font-size: 20px;
+        margin-left: 70px;
+    }
+    .container-celeste {
+        /* align-items: center; */
+        height: 400px;
+        width: 100%;
+        /* border: 5px solid rgb(203, 203, 55); */
     }
 }
 
@@ -210,12 +289,11 @@ header #nav-desktop {
         color: #ebebeb;
         text-decoration: none;
     }
-    .container-img img {
-        width: 1024px;
-        height: 1024px;
+}
+
+@media all and (min-width: 980px) {
+    #sct-cambio-banner {
+        display: flex;
+        flex-direction: row;
     }
-    /* .container-img img {
-        width: 100%;
-        height: 100%;
-    } */
 }
