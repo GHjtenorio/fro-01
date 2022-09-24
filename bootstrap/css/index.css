@@ -1,0 +1,32 @@
+/* incluimos breakpont a los pixeles 992 se vera el margen */
+
+
+/* 
+.container-lg {
+    height: 50vh;
+    background: #6d1246;
+    color: #fff;
+} */
+
+
+/* breakpoint aplicado segun documentacion   */
+
+.rojo {
+    background: #eb3b5a;
+}
+
+.naranja {
+    background: #a54f0c;
+}
+
+.amarillo {
+    background: #c49e12;
+}
+
+.verde {
+    background: #1fa83b;
+}
+
+.celeste {
+    background: #a3aace;
+}
