@@ -3,11 +3,13 @@ html {
     color: white;
     font-size: 45px;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5px;
 }
 
 .caja {
     /* border: 2px solid #000; */
     display: flex;
+    flex-direction: row;
     height: 50px;
     justify-content: center;
     align-items: center;
@@ -28,6 +30,7 @@ html {
     flex-direction: row;
     /* flex-wrap: wrap;  me deja el ancho que le digo y lo que no cabe lo pone en otro lugar*/
     justify-content: space-around;
+    align-items: center;
     /* space around suma los espacios de cada elemento al rededor del elemento*/
     /* space-evenly; sin sumar entre elementos , de forma equitativa */
     /* permite acomodar los elementos hijos seguen su eje principal */
