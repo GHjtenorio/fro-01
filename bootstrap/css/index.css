@@ -30,3 +30,25 @@
 .celeste {
     background: #a3aace;
 }
+
+
+/* CSS  de practica clase media query  */
+
+.containerA-lg .border {
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 150px;
+    justify-content: space-around;
+}
+
+
+/* .containerA .border2 {
+    border: 3px solid black;
+}
+
+.containerA .border3 {
+    border: 3px solid black;
+} */

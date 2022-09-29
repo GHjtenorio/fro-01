@@ -1,0 +1,5 @@
+.containerA-lg .border {
+    border: 3px solid #000;
+    height: 150px;
+    justify-content: space-between;
+}

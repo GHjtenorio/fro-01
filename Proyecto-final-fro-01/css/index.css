@@ -1,0 +1,199 @@
+* {
+    /* tener el modelo de cajas */
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #000000;
+    /* border: 3px solid rgb(188, 43, 50); */
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #000;
+}
+
+h1 {
+    color: #000000;
+}
+
+svg {
+    fill: #fff;
+    width: 140px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 11vh;
+    background-color: #000;
+}
+
+.line {
+    display: inline-block;
+    width: 1px;
+    height: 1rem;
+    background-color: #fff;
+}
+
+.nav_enlaces a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: .5rem 1.5rem;
+    font-size: .95rem;
+}
+
+#sct-registro {
+    display: flex;
+    flex-direction: column;
+    background: #1D75DE;
+    height: 450px;
+}
+
+.invite-p {
+    display: flex;
+    flex-direction: row;
+    padding-top: 130px;
+    padding-bottom: 10px;
+}
+
+.invite-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.precio-p {
+    margin-left: 15px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.btn-start {
+    height: 55px;
+    background: #000;
+    border-radius: 10vh;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#p-btn-start {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.btn-cPlans {
+    height: 55px;
+    border-radius: 25px;
+    border-color: #fff;
+    border-width: 2px;
+    cursor: pointer;
+    cursor: move;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+    background: #1D75DE;
+}
+
+#p-btn-cPlan {
+    color: #fff;
+    font-weight: 600;
+}
+
+.terms-cond {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 11px;
+}
+
+#sct-beneficios {
+    background: #fff;
+}
+
+#spn-tems-cond {
+    text-decoration: underline;
+}
+
+.spn-bold-txt {
+    color: #000000;
+}
+
+img {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+}
+
+.p-message {
+    color: #000000;
+}
+
+#enlaces {
+    background: #000000;
+    color: #ffff;
+    border: 3px solid rgb(188, 43, 50);
+}
+
+.logo-spot {
+    color: #fff;
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    justify-content: space-between;
+    height: 54px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.invite-p {
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.precio-p {
+    color: #fff;
+}
+
+#sct-registro .btn-registrar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 20px 0;
+    border: 3px solid rgb(188, 43, 50);
+}
+
+.btn-registrar .btn-start {
+    background: #191413;
+    border: 2px solid #191413;
+    border-radius: 50px;
+    border: 3px solid rgb(188, 43, 50);
+}
+
+.btn-registrar .btn-cPlans {
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(188, 43, 50);
+}
+
+
+/* media query  */
+
+@media all and (min-width: 980px) {}
