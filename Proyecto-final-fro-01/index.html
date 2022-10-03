@@ -9,7 +9,13 @@
 
 
     <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <title>Proyecto final SPOTIFY</title>
 </head>
@@ -49,7 +55,8 @@
                 <h2 class="invite-title">Pásate a Premium gratis por un mes</H2>
             </div>
             <div class="precio-p">
-                <P>Después, solo cuesta 5.99 USD*** por mes. Cancela cuando quieras.</P>
+                <P>Después, solo cuesta 5.99 USD***</p>
+                <p>por mes. Cancela cuando quieras.</P>
             </div>
 
             <div class="btn-registar">
@@ -68,41 +75,86 @@
         <section id="sct-beneficios">
 
             <div class="premium-title">
-                <H1>¿Por qué pasarte a Premium?</H1>
+                <H1>Beneficios de Premium</H1>
+                <h2 class="p-row-ind"></h2>
             </div>
-            <div class="msg-one">
+            <div class="msg-row">
                 <img src="imgs/whyPremium_01.png" alt="">
-                <span class="spn-bold-txt"> Descarga tu musica.</span>
-                <p class="p-message">Escuchala donde quieras</p>
+                <div class="download-col">
+                    <span class="spn-bold-txt">Descarga tu música.</span>
+
+                    <p class="p-message">Escúchala donde quieras</p>
+                </div>
             </div>
 
-            <div class="msg-two">
+            <div class="msg-row">
+
                 <img src="imgs/whyPremium_02.png" alt="">
-                <span class="spn-bold-txt">Reproduce musica sin anuncions.</span>
-                <p class="p-message">Solo musica, sin parar.</p>
+                <div class="download-col">
+                    <span class="spn-bold-txt">Reproduce música sin anuncios.</span>
+                    <p class="p-message">Solo música, sin parar.</p>
+                </div>
             </div>
 
-            <div class="msg-three">
+            <div class="msg-row">
                 <img src="imgs/whyPremium_03.png" alt="">
-                <span class="spn-bold-txt">Reproduce lo que quieras.</span>
-                <p class="p-message">Incluso en dispositivos moviles.</p>
+                <div class="download-col">
+                    <span class="spn-bold-txt">Reproduce lo que quieras.</span>
+                    <p class="p-message">Incluso en dispositivos móviles.</p>
+                </div>
             </div>
 
-            <div class="msg-four">
+            <div class="msg-row">
                 <img src="imgs/whyPremium_04.png" alt="">
-                <span class="spn-bold-txt">Salta canciones de forma ilimitada.</span>
-                <p class="p-message">Solo pasa a la siguiente.</p>
+                <div class="download-col">
+                    <span class="spn-bold-txt">Salta canciones de forma ilimitada.</span>
+                    <p class="p-message">Solo pasa a la siguiente.</p>
+                </div>
 
             </div>
 
 
         </section>
 
-        <section id="sct-planes"></section>
+        <article id="sct-planes">
+            <div class="elige-plan">
+                <h1> Elige tu plan</h1>
+                <h1> Premium</h1>
+                <br>
+                <p class="p-message">Escucha sin límites en tu teléfono,</p>
+                <p class="p-message">altavoces y otros dispositivos.</p>
+            </div>
 
-        <h1> Elige tu plan Premium</h1>
-        <p>Escucha sin limites en tu telefono , atavoces y otros dispositivos.</p>
 
+            <section class="sct-cuadro">
+                <div class="p-premium">
+                    <span id="btn-mes">
+                   1 mes gratis 
+                </span>
+
+                    <h3>
+                        Individual
+                    </h3>
+                    <p class="p-message">
+                        5.99 USD*** por mes después del periódo dela oferta </p>
+
+                    <p class="p-message">1 Cuenta</p>
+
+                    <div class="linea-separate">
+
+                    </div>
+                    <p class="p-message">Escucha música sin anuncios</p>
+                    <p class="p-message">Reproduce tus canciones en cualquier lugar, incluso sin conexión</p>
+                    <p class="p-message">Reproducción on-demand</p>
+                    <button type="button" class="btn-start">
+                    <P id="p-btn-start">COMENZAR</P>
+                </button>
+
+
+
+                </div>
+            </section>
+        </article>
     </main>
     <footer id="enlaces">
 

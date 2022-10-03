@@ -71,19 +71,23 @@ nav {
 }
 
 .precio-p {
+    font-weight: 800;
+    font-size: 17px;
+    font-family: 'Inter Tight', sans-serif;
     margin-left: 15px;
-    line-height: 26px;
-    font-weight: 700;
+    line-height: 25px;
 }
 
 .btn-start {
     height: 55px;
     background: #000;
     border-radius: 10vh;
+    border: 1px solid #000;
     cursor: pointer;
     margin-left: 10px;
     margin-top: 25px;
     margin-bottom: 10px;
+    outline: none;
     width: 300px;
 }
 
@@ -96,14 +100,15 @@ nav {
 .btn-cPlans {
     height: 55px;
     border-radius: 25px;
-    border-color: #fff;
     border-width: 2px;
+    background: #1D75DE;
+    border: 1px solid #ebebed;
     cursor: pointer;
     cursor: move;
     margin-left: 10px;
     margin-bottom: 30px;
+    outline: none;
     width: 300px;
-    background: #1D75DE;
 }
 
 #p-btn-cPlan {
@@ -119,6 +124,8 @@ nav {
 
 #sct-beneficios {
     background: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 #spn-tems-cond {
@@ -130,19 +137,41 @@ nav {
 }
 
 img {
-    width: 28px;
-    height: 28px;
-    margin-right: 5px;
+    width: 90px;
+    height: 90px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .p-message {
     color: #000000;
+    display: flex;
+    flex-direction: row;
+    line-height: 20px;
+}
+
+.elige-plan .p-message {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-weight: 450;
+}
+
+.spn-bold-txt {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: flex-start;
+    line-height: 27px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    width: 95%;
+    /* border: 3px solid #1b1b96; */
 }
 
 #enlaces {
     background: #000000;
     color: #ffff;
-    border: 3px solid rgb(188, 43, 50);
 }
 
 .logo-spot {
@@ -193,7 +222,104 @@ img {
     border: 3px solid rgb(188, 43, 50);
 }
 
+#sct-planes {
+    height: 450px;
+    background: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+}
+
+.elige-plan {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+
+.elige-plan h1 {
+    font-size: 30px;
+    font-weight: 750;
+}
+
+.premium-title {
+    /* display: flex;
+    flex-direction: column; */
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 24px;
+    justify-content: center;
+    padding-left: 70px;
+    padding-top: 35px;
+    margin-bottom: 35px;
+}
+
+.p-row-ind {
+    font-weight: 900;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.msg-row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.download-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-premium {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+#btn-mes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #0D72EA;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 15px;
+    height: 25px;
+    width: 97px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-left: 15px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.sct-cuadro {
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+    border-radius: 11px;
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 45px;
+    background: #FFFFFF;
+}
+
+.p-premium .p-message {
+    margin-left: 15px;
+}
+
 
 /* media query  */
 
-@media all and (min-width: 980px) {}
+@media all and (min-width: 980px) {
+    #sct-beneficios {
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+    }
+}
