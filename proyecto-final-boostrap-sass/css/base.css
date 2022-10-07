@@ -1,0 +1,139 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  background: #000000;
+  height: 56px;
+}
+
+.invite-title {
+  font-size: 30px;
+}
+
+svg {
+  width: 8rem;
+  fill: #fff;
+  cursor: pointer;
+}
+
+a {
+  color: #ebebed;
+  font-weight: 13px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a:hover {
+  color: #44bd32;
+}
+
+#sct-registro {
+  background: #1D75DE;
+  display: flex;
+  flex-direction: row;
+  height: 460px;
+  padding-top: 60px;
+}
+#sct-registro h2 {
+  color: #ebebed;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  line-height: 33px;
+}
+#sct-registro p {
+  color: #ebebed;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.btn-registar {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.line {
+  width: 0.25rem;
+  height: 0.55rem;
+  color: #ebebed;
+}
+
+.col-line {
+  width: 12px;
+}
+
+#btn-start {
+  align-items: center;
+  background: #000000;
+  border-radius: 10vh;
+  border: 1px solid #000000;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  margin-bottom: 12px;
+  outline: none;
+}
+#btn-start p {
+  color: #ebebed;
+  display: flex;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#btn-cPlans {
+  align-items: center;
+  border-radius: 25px;
+  border-width: 2px;
+  background: #1D75DE;
+  border: 1px solid #ebebed;
+  cursor: pointer;
+  cursor: move;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  margin-bottom: 35px;
+  outline: none;
+}
+#btn-cPlans p {
+  color: #ebebed;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#txt-restrict {
+  display: flex;
+  flex-direction: column;
+}
+#txt-restrict p {
+  font-size: 10px;
+}
+#txt-restrict p span {
+  text-decoration: underline;
+}
+
+#sct-beneficios {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+#sct-beneficios img {
+  height: 90px;
+}
+
+#art-planes {
+  background: #EFEFEF;
+}
+
+.precio-p {
+  color: #ebebed;
+}
+
+.terms-cond {
+  color: #ebebed;
+}/*# sourceMappingURL=base.css.map */
