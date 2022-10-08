@@ -23,4 +23,58 @@ a {
 
 .material-icons {
   font-size: 1rem;
+}
+
+#sct-robin-info .Robin {
+  align-items: center;
+  background: #373c33;
+  color: #ebebeb;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+}
+#sct-robin-info .Robin p {
+  margin-bottom: 0px;
+}
+#sct-robin-info .flecha {
+  align-items: center;
+  background: #bc3183;
+  color: #ebebeb;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+}
+
+#sct-gallery .caja-morada {
+  align-items: center;
+  background: #5b0fa1;
+  color: #ebebeb;
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+}
+#sct-gallery img {
+  max-height: 50vh;
+}
+
+@media (min-width: 430px) {
+  #sct-gallery .caja-morada {
+    max-height: 60vh;
+  }
+  #sct-gallery img {
+    max-height: 60vh;
+  }
+}
+@media (min-width: 640px) {
+  #sct-robin-info .Robin, #sct-robin-info .flecha {
+    height: 150px;
+  }
+}
+@media (min-width: 980px) {
+  #sct-gallery .caja-morada {
+    max-height: 40vh;
+  }
+  #sct-gallery img {
+    max-height: 40vh;
+  }
 }/*# sourceMappingURL=base.css.map */

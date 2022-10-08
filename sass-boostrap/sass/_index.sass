@@ -18,5 +18,58 @@ a
 .material-icons
     font-size: 1rem    
 
+#sct-robin-info
+    .Robin
+        align-items: center
+        background: $gris
+        color: $blanco 
+        display: flex
+        height: 75px
+        justify-content: center
+        p
+            margin-bottom: 0px
+    .flecha   
+        align-items: center
+        background:$magenta
+        color: $blanco 
+        display: flex 
+        height: 75px
+        justify-content: center   
+
+#sct-gallery
+    .caja-morada
+        align-items: center
+        background: $morado
+        color: $blanco 
+        display: flex
+        height: 50vh
+        justify-content: center
+    img
+        max-height: 50vh    
 
 
+
+@media (min-width: 430px)
+        #sct-gallery
+            .caja-morada
+                max-height: 60vh
+            img
+                max-height: 60vh
+
+
+
+@media (min-width: 640px) 
+     #sct-robin-info
+        .Robin, .flecha
+            height: 150px
+
+@media (min-width: 980px)
+        #sct-gallery
+            .caja-morada
+                max-height: 40vh
+            img
+                max-height: 40vh
+
+
+        
+    
